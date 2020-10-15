@@ -1,8 +1,8 @@
-# import keras
-from keras.layers import Dense
-from keras.models import Sequential
-import numpy as np
 import tensorflow as tf
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
+import numpy as np
 
 
 def make_model(input_dim=4, out_dim=2):
